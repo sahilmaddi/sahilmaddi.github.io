@@ -8,7 +8,7 @@ import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-
+gsap.registerPlugin(DrawSVGPlugin) 
   const nameArray = ['a', 'h', 'i', 'l','', 'M', 'a', 'd','d','i']
   const jobArray = [
     ' ',
